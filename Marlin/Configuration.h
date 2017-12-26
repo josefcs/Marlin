@@ -511,7 +511,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {200, 200, 8000, 200}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {100, 100, 3200, 200} // Z not right yet!
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -832,8 +832,8 @@
  */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-//#define AUTO_BED_LEVELING_BILINEAR
-#define AUTO_BED_LEVELING_UBL
+#define AUTO_BED_LEVELING_BILINEAR
+// #define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
 
 /**
